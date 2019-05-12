@@ -1,25 +1,25 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import ReactDOM from 'react-dom';
+// import CHeader from './Component/CHeader.jsx';
+// import CSlider from './Component/CSlider.jsx';
+// import Home from './Page/Home.jsx'
+import Main from './Main.jsx'
 
+let time= new Date().toLocaleString();
+let name = "alex";
+
+ReactDOM.render(
+  <App name={name} />,
+  document.getElementById('root')
+);
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Main></Main>
+      
     </div>
+    
   );
 }
 

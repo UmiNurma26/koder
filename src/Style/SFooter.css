@@ -1,0 +1,23 @@
+footer{
+    min-height: 50px;
+    margin-top: 600px;
+    color: aliceblue;
+}
+footer h6{
+    padding: 20px;
+    font-weight: 800;
+}
+footer p.jobs{
+    text-align: left;
+}
+footer p{
+    text-align: justify;
+}
+footer img{
+    height: 40px;
+    width: 60px;
+    background-color: bisque;
+    border-radius: 3px;
+    padding: 3px;
+    margin: 10px;
+}

@@ -1,0 +1,32 @@
+.header{
+    max-height: 50px;
+    width: 100%;
+}
+.navbar .nav-item .nav-link a{ 
+    display: inline;
+    color: white;
+    text-decoration:none;
+
+}
+.navbar .nav-item .nav-link:hover{
+    background-color:#f1d685c7;
+    transition: all 1s cubic-bezier(0.815, 0.005, 0.18, 1.005);
+}
+
+li.navbar .nav-item-right{
+    float: right;
+    color: white;
+}
+
+ul li {
+    list-style-type: none;
+}
+.navbar:first-child{
+    margin: 0px;
+}
+.float-right{
+    margin-left: 210px;
+}
+.header .fixed-top .container-fluid .row .clearfix .form-inline input{
+    width: 200%;
+}

@@ -1,0 +1,142 @@
+.popular{
+    width: 25%;
+    /* margin: 30px; */
+    float: left;
+    margin-top: 5%;
+    padding-right: 3%;
+    padding-left: 1%;
+}
+.popular h6{
+    color: #f5b907e5;
+    font-weight: 700;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    
+}
+.popular .store{
+    margin-top: 25px;
+
+}
+
+
+/* 
+.popular img{
+    -webkit-filter: grayscale(80%);
+    filter: grayscale(100%);
+
+}
+.popular .popular-partnership1 {
+    background : url('../assets/lotte.png');
+    background-repeat: no-repeat;
+    height: 36px;
+    width: 94px;
+    background-size : 36px 94px; 
+    display: inline-block;
+    background-size: cover;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    padding-left: 0px;
+}
+.popular .popular-partnership2 {
+    background : url('../assets/matahari.png');
+    background-repeat: no-repeat;
+    height: 36px;
+    width: 94px;
+    background-size : 36px 94px; 
+    display: inline-block;
+    background-size: cover;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    padding-left: 0px;
+}
+.popular .popular-hover:hover{
+    -webkit-filter: none;
+    filter: none;
+} */
+/* .popular .sprites-1{
+    background-position-y: -8px;
+}
+.popular .sprites-2{
+    background-position-y: -277px;
+}
+.popular .sprites-3{
+    background-position-y: -94px;
+}
+.popular .sprites-4{
+    background-position-y: -322px;
+}
+
+.popular .sprites-bank {
+    background : url('../assets/metro.png') no-repeat;
+    height: 68px;
+    width: 150px;
+    margin-left: 20px;
+    background-size: cover;
+    display: inline-block;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+.popular .sprites-5{
+    background-position-y: -8px;
+}
+.popular .sprites-6{
+    background-position-y: -103px;
+}
+.popular .sprites-7{
+    background-position-y: -211px;
+} */
+
+
+
+.popular .dep{
+    background-position: center;
+    background-color: gray;
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 120px;
+    border-radius: 5px;
+    margin-top:  5px;
+      margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    float: left;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.popular .dep:hover{
+    -webkit-filter: none;
+    filter: none;
+}
+.popular .dep.matahari{
+    background: url(../assets/matahari.png) no-repeat;
+    background-position: center;
+    background-size: 90px 30px ;
+}
+.popular .dep.lotte{
+    background: url(../assets/lotte.png) no-repeat;
+    background-position: center;
+    background-size: 99px 35px ;
+}
+.popular .dep.metro{
+    background: url(../assets/metro.png) no-repeat;
+    background-position: center;
+    background-size: 99px 35px ;
+}
+.popular .dep.vale{
+    background: url(../assets/vale.png) no-repeat;
+    background-position: center;
+    background-size: 99px 35px ;
+}
+.popular .dep.plura{
+    background: url(../assets/plura.png) no-repeat;
+    background-position: center;
+    background-size: 99px 35px ;
+}
+.popular .dep.century{
+    background: url(../assets/century.png) no-repeat;
+    background-position: center;
+    background-size: 99px 35px ;
+}
